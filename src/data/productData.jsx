@@ -5,7 +5,7 @@ const ProductCard = [
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "C:/Users/falac/Desktop/frontend/fallen-headsets/src/assets/img/1.png"
+        thumb: "/public/assets/1.png"
     },
     {
         id:2,
@@ -13,7 +13,7 @@ const ProductCard = [
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "C:/Users/falac/Desktop/frontend/fallen-headsets/src/assets/img/2.png"
+        thumb: "/public/assets/1.png"
     },
     {
         id:3,
@@ -21,7 +21,7 @@ const ProductCard = [
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "C:/Users/falac/Desktop/frontend/fallen-headsets/src/assets/img/3.png"
+        thumb: "/public/assets/1.png"
     },
     {
         id:4,
@@ -29,7 +29,7 @@ const ProductCard = [
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "C:/Users/falac/Desktop/frontend/fallen-headsets/src/assets/img/4.png"
+        thumb: "/public/assets/1.png"
     },
     {
         id:5,
@@ -37,7 +37,7 @@ const ProductCard = [
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "C:/Users/falac/Desktop/frontend/fallen-headsets/src/assets/img/5.png"
+        thumb: "/public/assets/1.png"
     },
 ];
 

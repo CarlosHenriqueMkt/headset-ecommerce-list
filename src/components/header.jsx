@@ -7,7 +7,7 @@ function Header() {
     <div className="logo">
        <a href="https://www.fallenstore.com.br/">
           <img 
-          src="src\assets\img\logo-fallen-horizontal.png" 
+          src="public/assets/logo-fallen-horizontal.png" 
           alt="Logotipo Fallen Store" />
         </a>
     </div>

@@ -19,60 +19,60 @@ body {
     position: relative;
     font-family: $round;
 }
-    .dflex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        padding: 30px 50px 20px 50px;
-        box-sizing: border-box;
-        background-color: $bg;
-        color: rgba($white, .7);
-    }
+       .dflex {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+       .container{
+           display: flex;
+           flex-direction: column;
+           width: 100%;
+           height: 100%;
+           padding: 30px 50px 20px 50px;
+           box-sizing: border-box;
+           background-color: $bg;
+           color: rgba($white, .7);
+       }
     
-    nav {
-        @extend .dflex;
-            justify-content: space-between;
-            width:100%;
-            color: $white;
-        .logo{
-            font-size: 30px;
-            text-transform: uppercase;
-        }
-        ul {
-            @extend .dflex;
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            li {
-                font-size: 14px;
-                margin-left: 15px;
-                padding: 10px;
-                box-sizing: border-box;
-                color: rgba($white, .7);
-                cursor: pointer;
-            }
-        }
-        .search{
-            color: rgba($white, .7);
-            .fa{
-                cursor: pointer;
-                +.fa{
-                    margin-left: 15px;
-                }
-            }
-        }
+       nav{
+           @extend .dflex;
+               justify-content: space-between;
+               width:100%;
+               color: $white;
+               .logo{
+                   font-size: 30px;
+                   text-transform: uppercase;
+           }
+           ul {
+               @extend .dflex;
+               margin: 0;
+               padding: 0;
+               list-style-type: none;
+               li {
+                   font-size: 14px;
+                   margin-left: 15px;
+                   padding: 10px;
+                   box-sizing: border-box;
+                   color: rgba($white, .7);
+                   cursor: pointer;
+               }
+           }
+           .search{
+               color: rgba($white, .7);
+               .fa{
+                   cursor: pointer;
+                   +.fa{
+                       margin-left: 15px;
+                   }
+               }
+           }
     }
 
     .mainContent {
         @extend .dflex;
         position: relative;
-        width: 70%;
+        width: 100%;
         height: 100%;
         margin: 50px auto;
         padding: 50px 0 0;
@@ -98,7 +98,7 @@ body {
             .cardImg{
                 margin: -5vw;
                 img{
-                    width: 200px;
+                    width: 217px;
                 }
             }
             .cardHeader{

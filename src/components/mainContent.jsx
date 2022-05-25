@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCard from '../data/productData'
+import ProductCard from '../data/ProductData'
 
 
 const MainContent = () => {

@@ -5,7 +5,7 @@ const ProductCard = [
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "/public/assets/1.png"
+        thumb: "./assets/1.png"
     },
     {
         id:2,
@@ -13,31 +13,23 @@ const ProductCard = [
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "/public/assets/1.png"
+        thumb: "./assets/2.png"
     },
     {
         id:3,
-        productName:"Morcego Cinza",
-        description:"Confortável e com alta qualidade sonora",
-        price: 399,
-        currency: "$",
-        thumb: "/public/assets/1.png"
-    },
-    {
-        id:4,
         productName:"Morcego Roxo",
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "/public/assets/1.png"
+        thumb: "./assets/3.png"
     },
     {
-        id:5,
+        id:4,
         productName:"Morcego Rosa",
         description:"Confortável e com alta qualidade sonora",
         price: 399,
         currency: "$",
-        thumb: "/public/assets/1.png"
+        thumb: "./assets/4.png"
     },
 ];
 
